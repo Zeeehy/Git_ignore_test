@@ -10,7 +10,7 @@ public class Assume_unchanged_8 {
 	   3. Commit 을 하고 Push 도 합니다. 
 		  Web 의 git Hub 에 가보면 /MyGitExample/src/main/java/unchaged_assume/Assume_unchanged_8.java 파일이 Push 되어 보여집니다.
 	   4. Assume_unchanged_8.java 파일의 내용을 변경합니다.
-	             파일을 저장하면 Unstaged Changes(관리를 받지 않는 단계)에 >(dirty) 모양으로 들어옵니다.
+	      파일을 저장하면 Unstaged Changes(관리를 받지 않는 단계)에 >(dirty) 모양으로 들어옵니다.
 	      Staged Changes(관리를 받는 단계)에 *(staged) 모양으로 들어와도 상관 없이 괜찮습니다.       
 	   5. Project Explorer 에서  Assume_unchanged_8.java 파일에 마우스 우클릭하여 
 	      Team => Advanced => Assume Unchanged(변경이 없음으로 가정함)를 클릭하면 
@@ -23,12 +23,12 @@ public class Assume_unchanged_8 {
 	      Project Explorer 에서  Assume_unchanged_8.java 파일에 마우스 우클릭하여 
 	      Team => Advanced => No Assume Unchanged(변경이 없음으로 가정함을 없앰) 를 클릭하면 됩니다. 
 	   8. Project Explorer 에서  Assume_unchanged_8.java 파일의 아이콘은 우측하단에 조그만한 v(assume-valid) 표시가 없어지고
-	             노란 원기둥 모양의 표시(tracked) 또는 노란 원기둥 모양의 표시 >(dirty) 또는 * 표시(staged) 로 보여집니다.	
+	      노란 원기둥 모양의 표시(tracked) 또는 노란 원기둥 모양의 표시 >(dirty) 또는 * 표시(staged) 로 보여집니다.	
 	   9. Git Staging 의 Unstaged Changes(관리를 받지 않는 단계)에 가보면 
 	      Assume_unchanged_8.java 파일이 >(dirty) 모양으로 들어오게 되고 
 	             이제부터는 Staged Changes(관리를 받는 단계)에도 들어오게 되고 Commit 및 Push 대상이 되어집니다.          
 	*/
-		System.out.println("==== Assume_unchanged_8.java 파일입니다. ===="); 
+		System.out.println("======== Assume_unchanged_8.java 파일입니다. ========"); 
 
 	}
 
